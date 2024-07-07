@@ -3,10 +3,6 @@ from django.template.defaulttags import register
 from django.http import HttpResponse
 from datetime import date
 
-@register.filter
-def get_name_url(path):
-    return path.replace('/', '')
-
 def main(request):
     year, month, day = str(date.today()).split('-')
     year = int(year)

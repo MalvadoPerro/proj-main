@@ -83,14 +83,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-
-    # 'default': {
-    #     'NAME': 'my_database',
-    #     'ENGINE': 'sqlserver_ado',
-    #     'HOST': 'dbserver\\ss2012',
-    #     'USER': '',
-    #     'PASSWORD': '',
-    # }
 }
 
 
